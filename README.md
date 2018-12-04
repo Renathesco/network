@@ -52,6 +52,8 @@ Agora só falta passar a informação, agora passamos a responsabilidade para a 
 
 
  -------------------Servidor----------------
+ 
+ 
 Physical - Recebemos os dados na camada física, estes emcapsulados, que será http/get/da/sa/da/sa/da/sa anteriormente.
 
 Data-Link - Recebe a informação dos cabos(Physical) e ela vai interpretar o endereçamento mac e verá qual site o cliente quer acessar.
