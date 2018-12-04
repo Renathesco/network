@@ -1,0 +1,24 @@
+Network address: 	 11000000 10100000 00000000 00000000	192.160.0.0 INTERFACE
+Netmask:          	 11111111 11110000 00000000 00000000	255.240.0.0 (12 bits)  = Se é 12 bits, a mascara após 12 bits pode colocar tudo em 1.
+Broadcast addr:   	 11000000 10101111 11111111 11111111	192.175.255.255 
+Min Host value:   	 11000000 10100000 00000000 00000001	192.160.0.1 
+Max Host value:   	 11000000 10101111 11111111 11111110
+
+----------BROADCAST
+Um endereço de broadcast [1] é um endereço que permite que as informações sejam enviadas para todas as interfaces em uma determinada sub-rede,
+ em vez de uma máquina específica. Geralmente, o endereço de broadcast é encontrado obtendo-se o complemento de bit da máscara de sub-rede e
+ executando uma operação OR bit a bit com o identificador de rede. Em outras palavras, o endereço de broadcast é o último endereço no
+ intervalo de endereços da sub-rede. Por exemplo, o endereço de broadcast da rede 192.168.5.0 é 192.168.5.255. Para redes de tamanho / 24 ou maior,
+ o endereço de broadcast sempre termina em 255.
+
+
+----------DNS
+
+Resolução de endereço 
+Artigo principal: Sistema de Nomes de Domínio
+Os hosts na Internet geralmente são conhecidos por nomes, por exemplo, www.example.com, não principalmente por seu endereço IP,
+ que é usado para roteamento e identificação de interface de rede. O uso de nomes de domínio requer a tradução, chamada resolvê- los para endereços
+ e vice-versa. Isso é análogo a procurar um número de telefone em um catálogo telefônico usando o nome do destinatário.
+
+A tradução entre endereços e nomes de domínio é realizada pelo Sistema de Nomes de Domínio (DNS), um sistema de nomes distribuído hierárquico que permite
+ a subdelegação de espaços de nomes para outros servidores DNS.
