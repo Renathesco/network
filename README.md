@@ -53,10 +53,13 @@ Agora só falta passar a informação, agora passamos a responsabilidade para a 
 
  -------------------Servidor----------------
 Physical - Recebemos os dados na camada física, estes emcapsulados, que será http/get/da/sa/da/sa/da/sa anteriormente.
+
 Data-Link - Recebe a informação dos cabos(Physical) e ela vai interpretar o endereçamento mac e verá qual site o cliente quer acessar.
+
 Network - Essa camada vai verificar os endereços ips, e verá que o endereço ip de destino é de fato o conteúdo do blog do site.
 Transport - Vai ver as portas de comunicação que queremos acessar.
 Sessio - 
 Presentation
+
 Aplication - Chega a requisição http/get no servidor, uma vez que ele recebe essa requisição, ele precisa mandar de volta a informação para o cliente
  e assim, passará pelas camadas tudim de novo, só que o inverso, os endereços de destino será o cliente, e o de origem o servidor.
